@@ -12,4 +12,5 @@ https://twitter.com/p1o1c1k1y/status/1486374221827940353
 - タッチペン https://amzn.to/3ID0YvQ
 - リールホルダー https://amzn.to/3r1aym7
 - 皿小ネジ + ナット https://amzn.to/3r0nqsT
+  - M3 の皿頭ならだいたいなんでも合うはず
 - 磁石 https://amzn.to/3rVvBG2
