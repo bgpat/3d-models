@@ -22,4 +22,4 @@ difference() {
 }
 
 translate([w, 0, 0]) cube([cable_width, w, t]);
-translate([w + cable_width, 0, 0]) cube([t, w, t * 2]);
+translate([w + cable_width, 0, 0]) cube([t, w, h]);
