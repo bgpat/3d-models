@@ -13,7 +13,7 @@ module roundedcube(size, center = false, r = 0.5,
   ry = y + (ymin ? -r : 0) + (ymax ? -r : 0);
   rz = z + (zmin ? -r : 0) + (zmax ? -r : 0);
 
-  translate([center ? x * 0.5 : 0, center ? y * 0.5 : 0, center ? z * 0.5 : 0]) intersection(){
+  translate([center ? -x * 0.5 : 0, center ? -y * 0.5 : 0, center ? -z * 0.5 : 0]) intersection(){
     cube(size);
     translate([xmin ? r : 0, ymin ? r : 0, zmin ? r : 0]) {
       hull() {
